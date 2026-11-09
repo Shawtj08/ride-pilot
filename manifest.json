@@ -1,0 +1,1 @@
+{"name": "Ride Pilot Solo Driver", "short_name": "Ride Pilot", "start_url": "./index.html", "display": "standalone", "background_color": "#f3f6fb", "theme_color": "#14243b", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]}

@@ -1,0 +1,1 @@
+const c='ridepilot-v1';self.addEventListener('install',e=>e.waitUntil(caches.open(c).then(x=>x.addAll(['./','./index.html','./app.js','./manifest.json','./icon.svg']))));self.addEventListener('fetch',e=>{if(e.request.method==='GET')e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)))});
